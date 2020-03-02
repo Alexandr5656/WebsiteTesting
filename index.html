@@ -1,43 +1,47 @@
 <html>
-<head>
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<script type="text/javascript" src="jquery.js"></script>
-<script type="text/javascript">
-function scrollto(div)
-{
- $('html,body').animate(
- {
-  scrollTop: $("#"+div).offset().top
- },'slow');
-}
-</script>
-</head>
-<body>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script type="text/javascript" src="jquery.js"></script>
+        <script type="text/javascript">
+            function scrollto(div) {
+                $('html,body').animate({
+                    scrollTop: $("#" + div).offset().top
+                }, 'slow');
+            }
+        </script>
+    </head>
+    <body>
 
-<div id="header">
- <li id="site_name">AlexBurbano.com</li>
- <li onclick="scrollto('home');">HOME</li>
- <li onclick="scrollto('about');">ABOUT</li>
- <li onclick="scrollto('portfolio');">PORTFOLIO</li>
- <li onclick="scrollto('contact');">CONTACT</li>
-</div>
+        <div id="header">
+            <li id="site_name">AlexBurbano.com</li>
+            <li onclick="scrollto('home');">HOME</li>
+            <li onclick="scrollto('about');">ABOUT</li>
+            <li onclick="scrollto('portfolio');">PORTFOLIO</li>
+            <li onclick="scrollto('contact');">CONTACT</li>
+        </div>
 
-<div id="home">
- <h1>My PortFolio</h1>
- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus quam quis nibh fringilla sit amet consectetur lectus malesuada. Sed nec libero erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi nisi, rhoncus ut vestibulum ac, sollicitudin quis lorem. </p>
-</div>
+        <div id="home">
+            <img src="images/MySelf.jpg" class = "myimg">
+            <h1>My PortFolio</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus quam quis nibh fringilla sit amet consectetur lectus malesuada. Sed nec libero erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi nisi, rhoncus ut vestibulum ac, sollicitudin quis lorem.
+            </p>
+        </div>
 
-<div id="about">
- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus quam quis nibh fringilla sit amet consectetur lectus malesuada. Sed nec libero erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi nisi, rhoncus ut vestibulum ac, sollicitudin quis lorem. </p>
- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus quam quis nibh fringilla sit amet consectetur lectus malesuada. Sed nec libero erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi nisi, rhoncus ut vestibulum ac, sollicitudin quis lorem. </p>
-</div>
+        <div id="about">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus quam quis nibh fringilla sit amet consectetur lectus malesuada. Sed nec libero erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi nisi, rhoncus ut vestibulum ac, sollicitudin quis lorem.
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus quam quis nibh fringilla sit amet consectetur lectus malesuada. Sed nec libero erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi nisi, rhoncus ut vestibulum ac, sollicitudin quis lorem.
+            </p>
+        </div>
 
-<div id="contact">
-<h1>Want to hire or talk to me? Contact me at <br>AlexBurbano5656@gmail.com <br><br>or you can fill the form below</h1>
-<input type="text" placeholder="Name">
-<textarea placeholder="Message"></textarea>
-<input type="submit" value="SEND">
-</div>
+        <div id="contact">
+            <h1>Want to hire or talk to me? Contact me at
+                <br>AlexBurbano5656@gmail.com
+                <br><br>or you can fill the form below</h1>
+            <input type="text" placeholder="Name">
+            <textarea placeholder="Message"></textarea>
+            <input type="submit" value="SEND">
+        </div>
 
-</body>
+    </body>
 </html>

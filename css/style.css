@@ -92,13 +92,12 @@ body
 #about
     {
     
-    width:90%;
+    width:100%;
     height:400px;
-    margin-left:5%;
     padding:50px;
     box-sizing:border-box;
     background-color:#084B8A;
-
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url("../images/two.png");
     color:white;
     }
 #about p
@@ -113,14 +112,11 @@ body
 ////////////////////////////////////////////////////////////////////////////////////////////*/
 #contact
     {
-    margin-top:100px;
-    width:90%;
-    height:400px;
-    margin-left:5%;
-    padding:50px;
+    width:100%;
+    height:300px;
+    padding:25px;
     box-sizing:border-box;
     background-color:#084B8A;
-
     color:white;
     }
 #contact input[type="text"]
@@ -152,6 +148,17 @@ body
     color:white;
     border:1px solid white;
     }
+/* ///////////////////////////////////////////////////////////////////////////////////////////
+|                                                                                            |
+|                                                                                            |
+|                                                                                            |
+////////////////////////////////////////////////////////////////////////////////////////////*/
+.myimg{
+    width:200px;
+    height:200px;
+    object-fit:cover;
+    border-radius:50%;
+  }
 /* ///////////////////////////////////////////////////////////////////////////////////////////
 |                                                                                            |
 |                                                                                            |
