@@ -1,0 +1,159 @@
+/*////////////////////////////////////////////////////////////////////////////////////////////
+|                                                                                            |
+|                                        StyleSheet                                          |
+|                                     By Alex Burbano                                        |
+|                                                                                            |
+////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////
+|                                                                                            |
+|                                         Body                                               |
+|                                                                                            |
+////////////////////////////////////////////////////////////////////////////////////////////*/
+
+body
+{
+ margin:0px auto;
+ padding:0px;
+ text-align:center;
+ width:100%;
+ font-family: "Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
+ background-color:#A9D0F5;
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////
+|                                                                                            |
+|                                       Header                                               |
+|                                                                                            |
+////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#header
+{
+ width:100%;
+ margin:0px auto;
+ padding:0px;
+ text-align:center;
+ height:70px;
+ line-height:70px;
+}
+#header li
+{
+ display:inline-block;
+ margin-right:25px;
+ font-size:17px;
+ color:#084B8A;
+ font-weight:bold;
+ cursor:pointer;
+}
+#header #site_name
+{
+ text-align:left;
+ width:680px;
+ font-size:35px;
+ margin-left:20px;
+}
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////
+|                                                                                            |
+|                                          Home                                              |
+|                                                                                            |
+////////////////////////////////////////////////////////////////////////////////////////////*/
+#home{
+    margin-top:0px;
+    width:100%;
+    height:450px;
+    padding:50px;
+    box-sizing:border-box;
+    background-color:#084B8A;
+    color:white;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url("../images/one.jpeg");
+   }
+
+#home h1
+    {
+    font-size:40px;
+    }
+#home p
+    {
+    font-size:20px;
+    }
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////
+|                                                                                            |
+|                                      About                                                 |
+|                                                                                            |
+////////////////////////////////////////////////////////////////////////////////////////////*/
+#about
+    {
+    
+    width:90%;
+    height:400px;
+    margin-left:5%;
+    padding:50px;
+    box-sizing:border-box;
+    background-color:#084B8A;
+
+    color:white;
+    }
+#about p
+    {
+    font-size:20px;
+    }
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////
+|                                                                                            |
+|                                     Contact                                                |
+|                                                                                            |
+////////////////////////////////////////////////////////////////////////////////////////////*/
+#contact
+    {
+    margin-top:100px;
+    width:90%;
+    height:400px;
+    margin-left:5%;
+    padding:50px;
+    box-sizing:border-box;
+    background-color:#084B8A;
+
+    color:white;
+    }
+#contact input[type="text"]
+    {
+    width:250px;
+    height:35px;
+    padding-left:10px;
+    float:left;
+    margin-left:80px;
+    border:none;
+    }
+#contact textarea
+    {
+    float:left;
+    width:250px;
+    height:35px;
+    margin-left:20px;
+    border:none;
+    padding-left:10px;
+    padding-top:10px;
+    }
+#contact input[type="submit"]
+    {
+    float:left;
+    margin-left:20px;
+    height:35px;
+    width:100px;
+    background:none;
+    color:white;
+    border:1px solid white;
+    }
+/* ///////////////////////////////////////////////////////////////////////////////////////////
+|                                                                                            |
+|                                                                                            |
+|                                                                                            |
+////////////////////////////////////////////////////////////////////////////////////////////*/
