@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <link rel="stylesheet" type="text/css" href="css/portfolio_style.css">
+<script src="javascript/tabs.js"></script>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,30 +9,29 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <div id = "portfolio">
+    
         <!-- Tab links -->
 <div class="tab">
-    <button class="tablinks" onclick="openCity(event, 'London')">London</button>
-    <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+    <button class="tablinks" onclick="openCity(event, 'SchoolWork')">SchoolWork</button>
+    <button class="tablinks" onclick="openCity(event, 'PersonalProjects')">PersonalProjects</button>
     <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
   </div>
   
   <!-- Tab content -->
-  <div id="London" class="tabcontent">
+  <div id="SchoolWork" class="tabcontent">
     <h3>London</h3>
     <p>London is the capital city of England.</p>
   </div>
   
-  <div id="Paris" class="tabcontent">
+  <div id="PersonalProjects" class="tabcontent">
     <h3>Paris</h3>
     <p>Paris is the capital of France.</p>
   </div>
   
-  <div id="Tokyo" class="tabcontent">
-    <h3>Tokyo</h3>
-    <p>Tokyo is the capital of Japan.</p>
+ 
   </div>
+  <div id ="portfolio",class = "wrapper"></div>
 
-    </div>
+    
 </body>
 </html>
